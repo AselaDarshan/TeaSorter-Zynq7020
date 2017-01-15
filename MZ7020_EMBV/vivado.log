@@ -1,0 +1,60 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:43:45 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Mon May 02 14:58:55 2016
+# Process ID: 6488
+# Current directory: D:/Avnet/hdl/Projects/embv_p1300c/MZ7020_EMBV
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3232 D:\Avnet\hdl\Projects\embv_p1300c\MZ7020_EMBV\embv_p1300c.xpr
+# Log file: D:/Avnet/hdl/Projects/embv_p1300c/MZ7020_EMBV/vivado.log
+# Journal file: D:/Avnet/hdl/Projects/embv_p1300c/MZ7020_EMBV\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Avnet/hdl/Projects/embv_p1300c/MZ7020_EMBV/embv_p1300c.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/Avnet/hdl/IP'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2015.4/data/ip'.
+open_project: Time (s): cpu = 00:00:38 ; elapsed = 00:00:46 . Memory (MB): peak = 827.277 ; gain = 274.949
+open_bd_design {D:/Avnet/hdl/Projects/embv_p1300c/MZ7020_EMBV/embv_p1300c.srcs/sources_1/bd/embv_p1300c/embv_p1300c.bd}
+Adding component instance block -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0
+Adding component instance block -- xilinx.com:ip:v_cfa:7.0 - v_cfa_0
+Adding component instance block -- xilinx.com:ip:v_cresample:4.0 - v_cresample_0
+Adding component instance block -- xilinx.com:ip:v_osd:6.0 - v_osd_0
+Adding component instance block -- xilinx.com:ip:v_rgb2ycrcb:7.1 - v_rgb2ycrcb_0
+Adding component instance block -- xilinx.com:ip:v_tc:6.1 - v_tc_0
+Adding component instance block -- xilinx.com:ip:v_tpg:7.0 - v_tpg_0
+Adding component instance block -- avnet:avnet_hdmi:avnet_hdmi_out:3.1 - avnet_hdmi_out_0
+Adding component instance block -- xilinx.com:ip:axi_vdma:6.2 - axi_vdma_0
+Adding component instance block -- xilinx.com:ip:axi_vdma:6.2 - axi_vdma_1
+Adding component instance block -- xilinx.com:ip:axis_subset_converter:1.1 - axis_tdata_subset
+Adding component instance block -- xilinx.com:ip:clk_wiz:5.2 - clk_wiz_0
+Adding component instance block -- avnet:onsemi_vita:onsemi_vita_cam:3.2 - onsemi_python_cam_0
+Adding component instance block -- avnet:onsemi_vita:onsemi_vita_spi:3.2 - onsemi_python_spi_0
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_processing_system7_0_108M
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_processing_system7_0_149M
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_processing_system7_0_76M
+Adding component instance block -- xilinx.com:ip:v_axi4s_vid_out:4.0 - v_axi4s_vid_out_0
+Adding component instance block -- xilinx.com:ip:v_vid_in_axi4s:4.0 - v_vid_in_axi4s_0
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_0
+Adding component instance block -- xilinx.com:ip:xlconstant:1.1 - xlconstant_1
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding component instance block -- xilinx.com:ip:axi_clock_converter:2.1 - auto_cc
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Adding component instance block -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+Adding component instance block -- xilinx.com:ip:axi_protocol_converter:2.1 - auto_pc
+Successfully read diagram <embv_p1300c> from BD file <D:/Avnet/hdl/Projects/embv_p1300c/MZ7020_EMBV/embv_p1300c.srcs/sources_1/bd/embv_p1300c/embv_p1300c.bd>
+open_bd_design: Time (s): cpu = 00:00:29 ; elapsed = 00:00:34 . Memory (MB): peak = 1110.813 ; gain = 252.090
+regenerate_bd_layout
+save_bd_design
+write_bd_layout -format pdf -orientation landscape C:/Users/Yasura/Desktop/embv_p1300c.pdf
+C:/Users/Yasura/Desktop/embv_p1300c.pdf
+write_bd_layout -format pdf -orientation portrait C:/Users/Yasura/Desktop/embv_p1300c_1.pdf
+C:/Users/Yasura/Desktop/embv_p1300c_1.pdf
+write_bd_layout -format pdf -orientation landscape -scope visible -force C:/Users/Yasura/Desktop/embv_p1300c_1.pdf
+C:/Users/Yasura/Desktop/embv_p1300c_1.pdf
+write_bd_layout -format pdf -orientation landscape -scope visible C:/Users/Yasura/Desktop/embv_p1300c_2.pdf
+C:/Users/Yasura/Desktop/embv_p1300c_2.pdf
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue May 03 07:29:29 2016...
